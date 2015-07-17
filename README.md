@@ -1,0 +1,1 @@
+# moodle-blocks_informationspot
