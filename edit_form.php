@@ -82,7 +82,7 @@ class block_informationspot_edit_form extends block_edit_form {
                                       'maxbytes'=>$COURSE->maxbytes,
                                       'accepted_types'=>'web_image',
                                       'return_types'=>FILE_INTERNAL);
-                 $draftitemid = file_get_submitted_draft_itemid('config_imagespot');
+                 $draftitemid = '';
                  file_prepare_draft_area($draftitemid, $this->block->context->id, 'block_informationspot', 'image', 0, $fileoptions);
                  $defaults->config_imagespot = $draftitemid;
                  unset($this->block->config->imagespot);
