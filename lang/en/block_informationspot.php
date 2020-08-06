@@ -25,6 +25,7 @@
 $string['pluginname'] = 'Information Spot';
 $string['newinformationspotblock'] = '(new Information Spot block)';
 $string['informationspot:addinstance'] = 'Add a new Information Spot block';
+$string['informationspot:myaddinstance'] = 'Add my new Information Spot block';
 
 $string['configshowspot'] = 'Display information spot';
 $string['configspotfile'] = 'Image file';
