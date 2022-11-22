@@ -40,3 +40,5 @@ $string['onetimebefore'] = 'One time before login';
 $string['onetimeafter'] = 'One time after login';
 $string['onetime'] = 'One time';
 $string['never'] = 'Never';
+$string['more'] = 'More';
+
