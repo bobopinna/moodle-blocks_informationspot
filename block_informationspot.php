@@ -75,7 +75,7 @@ class block_informationspot extends block_base {
         }
 
         if (!empty($this->config->title)) {
-            $this->content->text .= html_writer::tag('h1', $this->config->title);
+            $this->content->text .= html_writer::tag('h2', $this->config->title);
         }
 
         $fs = get_file_storage();
