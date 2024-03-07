@@ -91,7 +91,7 @@ class block_informationspot extends block_base {
         if (!empty($imagefile)) {
             $imageurl = moodle_url::make_pluginfile_url($this->context->id,'block_informationspot', 'image', 0, $imagefile->get_filepath(), $imagefile->get_filename());
             
-            $image = html_writer::empty_tag('img', array('src' => $imageurl, 'class' => 'block_informationspot_image'));
+            $image = html_writer::empty_tag('img', ['src' => $imageurl, 'class' => 'block_informationspot_image', 'alt' => '']);
             $this->content->text .= html_writer::tag('div', $image, array('class' => 'block_informationspot_imagecontainer'));
         }
 
